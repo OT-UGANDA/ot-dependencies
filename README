@@ -1,0 +1,4 @@
+Dependencies repository for the Open Tenure open source project.
+This repository contains the dependencies not available via public maven repositories (e.g. android libraries)
+
+Open Tenure uses multiple Git repositories for managing its code base.
