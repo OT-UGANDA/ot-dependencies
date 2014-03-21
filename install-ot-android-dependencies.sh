@@ -4,4 +4,6 @@ mvn install:install-file -Dfile=android.jar -DgroupId=com.google.android -Dartif
 
 mvn install:install-file -Dfile=google-play-services.apklib -DgroupId=com.google.android.gms -DartifactId=google-play-services -Dversion=4.2.42 -Dpackaging=apklib
 
+mvn install:install-file -Dfile=google-play-services.jar -DgroupId=com.google.android.gms -DartifactId=google-play-services -Dversion=4.2.42 -Dpackaging=jar
+
 mvn install:install-file -Dfile=maps.jar -DgroupId=com.google.android -DartifactId=maps -Dversion=19-1 -Dpackaging=jar
